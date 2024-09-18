@@ -1,0 +1,19 @@
+*.sql
+*.db
+*.sqlite
+
+
+# General
+.DS_Store
+.env
+
+# Cliente
+ElefanteAzul_cliente/node_modules/
+ElefanteAzul_cliente/build/
+ElefanteAzul_cliente/.env.local
+
+# Servidor
+ElefanteAzul/vendor/
+ElefanteAzul/.env
+ElefanteAzul/storage/*.key
+
